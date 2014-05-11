@@ -1,0 +1,25 @@
+table {
+	font-size: 25;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.main-heading {
+	text-decoration: underline;
+	font-size: 30;
+	text-align: center;
+}
+
+a {
+	font-size: 20;
+	text-decoration: none;
+	margin-left: 20;
+}
+
+a:hover {
+	text-decoration:underline;
+}
+
+form {
+	text-align: center;
+}
