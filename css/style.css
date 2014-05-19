@@ -60,3 +60,7 @@ div.alertlink {
 	margin-right: auto;
 	text-decoration: underline;
 }
+
+td {
+	padding-bottom: 5px;
+}
