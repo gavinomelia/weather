@@ -1,9 +1,7 @@
 body {
 	font-family: 'Nunito', sans-serif;
-	background-color: #FFFFFF;
 	color: #000000;
-	background-image: url('http://www.pcpro.co.uk/blogs/wp-content/uploads/2011/02/clouds.jpg')	
-}
+	background: url('http://www.pcpro.co.uk/blogs/wp-content/uploads/2011/02/clouds.jpg')}
 
 table {
 	font-size: 25;
@@ -27,6 +25,7 @@ a {
 li:hover {
 	background-color:#000000;
 	color: #E6E6E6;
+	box-shadow: 5px 5px 2px #474747;
 }
 
 div.zipcode {
@@ -51,7 +50,6 @@ margin-right: 20px;
 margin-left: 20px;
 border: 2px solid;
 border-radius: 10px;
-box-shadow: 5px 5px 2px #474747;
 }
 
 div.alertlink {
@@ -64,3 +62,4 @@ div.alertlink {
 td {
 	padding-bottom: 5px;
 }
+

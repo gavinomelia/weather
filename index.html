@@ -62,4 +62,39 @@
   </table>
 </div>
 
+<div class="bg"></div>
+
+<style type="text/css">
+@-webkit-keyframes MOVE-BG {
+   from {
+     -webkit-transform: translateX(0);
+   }
+   to { 
+     -webkit-transform: translateX(-187%);
+   }
+}
+
+#content {
+  height: 300px;
+  text-align: center;
+  font-size: 26px;
+  color: #000;
+  position:relative;
+}
+
+.bg {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  background: url('http://www.pcpro.co.uk/blogs/wp-content/uploads/2011/02/clouds.jpg') 0% 0% repeat;
+
+  -webkit-animation-name: MOVE-BG;
+  -webkit-animation-duration: 20s;
+  -webkit-animation-iteration-count: infinite;
+}
+</style>
+
 </body>
